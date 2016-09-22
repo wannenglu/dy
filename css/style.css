@@ -1,0 +1,242 @@
+body,div,p,h1,h2,h3,h4,ul,li,dl,dt,dd,ol,form,table,tr,td,span,label,input,select,option,a,img,i,em,strong,b{ margin: 0; padding: 0;}
+li{ list-style: none;}
+img{ border: 0 none; vertical-align: top;}
+a{ text-decoration: none; color: #fff;}
+a:hover{ color: #fff;}
+i{ font-style: normal;}
+html{/* rem单位永远以html做参考缩放；百分比和em单位以父元素做参考 */
+	font-size: 625%;/* 16*6.25=100px */
+}
+body{
+	font-family: "微软雅黑";
+	color: #bababa;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+	font-size: 0.24rem;/* body中默认使用最多的字体大小 */
+	background: #001431;
+}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content: "."; height: 0; clear: both; visibility: hidden; display: block;}
+
+/*头图*/
+#header{
+	width: 100%;
+	height: auto;
+}
+#header img{
+	width: 100%;
+}
+.title{
+	width: 100%;
+	height: 0.61rem;
+	background: url(../images/tit-bg.png) no-repeat;
+	background-size: 100% 100%; 
+	text-align: center;
+	line-height: 0.61rem;
+	font-size: 0.3rem;
+	color: #fffc00;
+}
+.movie_list{
+	widows: 6.16rem;
+	height: auto;
+	margin: 0.07rem auto 0;
+	border: #002458 0.02rem solid;
+	border-radius: 0.09rem;
+	box-shadow: 0 0 0.07rem #0a1e3b;
+	padding-bottom: 0.16rem;
+}
+.movie_list_main,.movie_comment{
+	width: 5.94rem;
+	height: auto;
+	border-bottom: #002f71 1px dashed;
+	margin: 0.11rem auto 0;
+	padding-bottom: 0.18rem;
+}
+.movie_comment{
+	border-bottom: 0 none;
+}
+.m_l_img{
+	float: left;
+	width: 1.72rem;
+	height: 2.46rem;
+	border: #ada474 0.02rem solid;
+	border-radius: 0.02rem;
+}
+.m_l_img img{
+	width: 100%;
+}
+.m_l_text{
+	float: right;
+	width: 3.95rem;
+}
+.m_l_textName li{
+	height: 0.48rem;
+	line-height: 0.44rem;
+}
+.m_l_tName{
+	float: left;
+	width: 1.2rem;
+	color: #00a8ff;
+}
+.m_l_tVal{
+	float: left;
+	width: 2.75rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;/*ellipsis省略号*/
+	overflow: hidden;
+}
+.m_l_btn{
+	width: 2.98rem;
+	height: 0.56rem;
+	line-height: 0.56rem;
+	background: url(../images/3.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	margin: 0.07rem auto;
+}
+.m_l_btn a{
+	color: #fee201;
+	font-size: 0.27rem;
+}
+.m_c_tit{
+	background: url(../images/comment.png) no-repeat left center;
+	background-size: 4% auto;
+	padding-left: 0.3rem;
+	color: #00a8ff;
+	font-size: 0.24rem;
+	line-height: 0.42rem;
+}
+.m_c_list{
+	margin-top: 0.06rem;
+}
+.m_c_list li{
+	float: left;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	background: #0048b1;
+	padding: 0 0.05rem;
+	margin: 0 0.07rem 0.07rem 0;
+}
+.m_buy{
+	width: 5.94rem;
+	height: auto;
+	margin: 0 auto;
+	border-bottom: #002f71 1px dashed;
+}
+.m_buy_text{
+	width: 3.2rem;
+	height: 0.54rem;
+	line-height: 0.54rem;
+	margin: 0 auto;
+	color: #ffeb00;
+	font-size: 0.2888rem;
+}
+.m_buy_btn{
+	width: 5.55rem;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 0.16rem;
+}
+.m_buy_btn a{
+	display: inline-block;
+	width: auto;
+	height: 0.56rem;
+	background: url(../images/m_buy_btn.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	line-height: 0.56rem;
+	padding: 0 0.11rem;
+}
+.buy_tit{
+	font-size: 0.2553rem;
+	color: #FFFFFF;
+}
+.right_icon{
+	display: inline-block;
+	width: 0.11rem;
+	height: 0.22rem;
+	background: url(../images/right_icon.png) no-repeat;
+	background-size: 100% 100%;
+}
+.list{
+	widows: 6.1rem;
+	height: auto;
+	margin: 0.04rem auto 0;
+	padding-bottom: 0.16rem;
+}
+.title_top{
+	margin-top: 0.18rem;
+}
+.list_main{
+	width: 6.1rem;
+	height: auto;
+	border-bottom: #002f71 1px dashed;
+	margin: 0.29rem 0 0 0.15rem;
+	padding-bottom: 0.18rem;
+}
+.list_img{
+	float: left;
+	width: 1.18rem;
+	height: 1.68rem;
+	border: #f0e138 0.01rem solid;
+	border-radius: 0.01rem;
+}
+.list_img img{
+	width: 100%;
+}
+.l_text{
+	float: left;
+	width: 4.7rem;
+}
+.l_textName{
+	width: 4.18rem;
+	height: auto;
+	float: left;
+	margin-left: 0.19rem;
+}
+.l_textName li{
+	height: 0.48rem;
+	line-height: 0.48rem;
+}
+.l_textName .l_tit{
+	color: #00a8ff;
+	font-size: 0.3rem;
+	height: 0.34rem;
+	line-height: 0.34rem;
+}
+.l_tName{
+	float: left;
+	width: 1.2rem;
+	color: #00a8ff;
+}
+.l_tVal{
+	float: left;
+	width: 2.66rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;/*ellipsis省略号*/
+	overflow: hidden;
+	margin-left: 0.13rem;
+}
+.scoll_right{
+	float: left;
+	font-size: 0.35rem;
+	height: 1.78rem;
+	line-height: 1.78rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
