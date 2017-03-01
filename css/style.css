@@ -38,7 +38,7 @@ body{
 	color: #fffc00;
 }
 .movie_list{
-	widows: 6.16rem;
+	width: 6.16rem;
 	height: auto;
 	margin: 0.07rem auto 0;
 	border: #002458 0.02rem solid;
@@ -76,12 +76,12 @@ body{
 }
 .m_l_tName{
 	float: left;
-	width: 1.2rem;
+	width: 1.3rem;
 	color: #00a8ff;
 }
 .m_l_tVal{
 	float: left;
-	width: 2.75rem;
+	width: 2.65rem;
 	white-space: nowrap;
 	text-overflow: ellipsis;/*ellipsis省略号*/
 	overflow: hidden;
@@ -207,12 +207,12 @@ body{
 }
 .l_tName{
 	float: left;
-	width: 1.2rem;
+	width: 1.3rem;
 	color: #00a8ff;
 }
 .l_tVal{
 	float: left;
-	width: 2.66rem;
+	width: 2.56rem;
 	white-space: nowrap;
 	text-overflow: ellipsis;/*ellipsis省略号*/
 	overflow: hidden;
